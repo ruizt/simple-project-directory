@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # read raw data
-emissions_raw <- read_csv('emissions-raw.csv', skip = 1)
+emissions_raw <- read_csv('data/emissions-raw.csv', skip = 1)
 
 # adjust column names
 emissions <- emissions_raw %>%
@@ -17,4 +17,4 @@ emissions <- emissions_raw %>%
   filter(state != 'United States')
 
 # export
-save(emissions, file = 'emissions-clean.RData')
+save(emissions, file = 'data/emissions-clean.RData')

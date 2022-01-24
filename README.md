@@ -1,3 +1,5 @@
+This repository illustrates a simple project directory layout. It can be copied as a template; if so, most files and information should be replaced with project files and project-specific information.
+
 # [Working project title]
 
 A brief description of your project here would help.
